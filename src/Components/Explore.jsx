@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 const Explore = () => {
     const [visible, setVisible] = useState(true)
   return (
-    <div className={visible ? 'block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' : 'hidden'}>
-      <div className='text-center w-[50vw] mx-auto my-0 py-7 
+    <div className={visible ? 'block absolute z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' : 'hidden'}>
+      <div className='text-center w-[90vh] md:w-[50vw] mx-auto my-0 py-7 
       bg-slate-600 rounded-xl'>
         <div>Welcome to My World of Creation!</div>
         <div>Hello there! I'm excited to share my work with you.</div>
