@@ -9,8 +9,9 @@
 
 body{
   color: white;
-  --navbar: hsl(281, 29%, 11%);
-  --bg:#19121d;
+  --navbar: #1c1c27;
+  --pr:#854ce6;
+  --bg:#1c1c30;
   font-family: 'Mulish';
 }
 
