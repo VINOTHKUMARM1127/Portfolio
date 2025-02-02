@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 const Skils = () => {
   return (
-    <div className="mt-5 w-screen md:w-[80%] mx-auto my-0">
+    <div className="mt-5 w-screen xl:w-[80%] mx-auto my-0">
       <div className="text-center text-[2em] font-bold mt-3">Skills</div>
       <div className="text-center text-[1.2em] opacity-55 mt-5 mb-10">
         Here are some of my skills on which I have learnt.

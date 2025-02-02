@@ -3,7 +3,7 @@ import Pic from '../assets/Pic.jpg'
 
 const Main = () => {
     return (
-        <div className='md:h-[89vh] flex flex-col-reverse md:flex-row justify-evenly items-center'>
+        <div className=' h-[89vh] flex flex-col-reverse md:flex-row justify-evenly items-center'>
             <div className='text-center w-[90vw] md:w-[40vw]'>
                 <div className='text-[1.7em] md:text-[3em] font-black mt-4 md:mt-0'>
                 <div>Hi I Am</div>
