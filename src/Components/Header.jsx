@@ -12,7 +12,7 @@ const Header = () => {
         <div className='md:mx-[2em] mx-[1em] hover:text-violet-600'>Education</div>
         <div className='md:mx-[2em] mx-[1em] hover:text-violet-600'>Projects</div>
       </div></div>
-      <div className='mx-0 my-auto'>Github</div>
+      <div className='mx-0 my-auto border-[2px] border-[#6536ff] px-6 py-1  rounded-full text-[#6536ff]'>Github</div>
     </div>
   )
 }
