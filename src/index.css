@@ -12,5 +12,10 @@ body{
   --navbar: #1c1c27;
   --bg:#1c1c27;
   font-family: 'Mulish';
+  overflow: auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
