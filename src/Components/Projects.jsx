@@ -23,6 +23,11 @@ const Projects = () => {
 
         <div className="border border-[#b14fc4] rounded-xl py-4 px-2 mx-auto my-0 opacity-80 shadow-[0_0_6px_#d607ed] mb-8">
         <img src={LotGames} alt="" className="rounded-[10%] min-h-[180px] min-w-[280px] px-4 mb-2"/>
+          
+          <div className="px-4 flex gap-3 text-[0.8em] my-1">
+            <div className=" bg-[#b14fc4] rounded-xl px-2">React</div>
+            <div className=" bg-[#b14fc4] rounded-xl px-2">Tailwind Css</div>
+          </div>
           <div className=" px-4 text-[1.2em] font-bold opacity-90 ">LotGames</div>
           <div className=" px-4 text-[0.8em] opacity-50 mb-1">2024</div>
           <div className=" px-4 text-[0.9em] opacity-70 text-justify">
