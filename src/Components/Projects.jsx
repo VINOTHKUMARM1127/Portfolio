@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "../Data";
+import {projects} from "../Data";
 
 const Projects = () => {
   return (
