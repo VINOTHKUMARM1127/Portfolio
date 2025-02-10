@@ -17,9 +17,7 @@ const Projects = () => {
           <div className=" px-4 text-[1.2em] font-bold opacity-90 ">LotHub</div>
           <div className=" px-4 text-[0.8em] opacity-50 mb-1">2024</div>
           <div className=" px-4 text-[0.9em] opacity-70 text-justify">
-            As a Computer Science graduate, I possess strong problem-solving and
-            precision skills. Combining this foundation with my passion for
-            technology, I'm venturing into IT.
+          Lothub is a movie discovery platform inspired by IMDb. It provides users with an intuitive interface to explore, search, and discover movies, TV shows, and actors. The website pulls data from The Movie Database (TMDb) API to give real-time information on movies, actors, trending content, and much more.
           </div>
         </div>
 
@@ -28,9 +26,7 @@ const Projects = () => {
           <div className=" px-4 text-[1.2em] font-bold opacity-90 ">LotGames</div>
           <div className=" px-4 text-[0.8em] opacity-50 mb-1">2024</div>
           <div className=" px-4 text-[0.9em] opacity-70 text-justify">
-            As a Computer Science graduate, I possess strong problem-solving and
-            precision skills. Combining this foundation with my passion for
-            technology, I'm venturing into IT.
+          LotGames is a game discovery platform inspired by RAWG. It provides users with an intuitive interface to explore, search, and discover video games, game creators, and gaming stores. The website pulls data from the RAWG API to offer real-time information about games, creators, trending content, and much more.
           </div>
         </div>
 
@@ -46,7 +42,7 @@ const Projects = () => {
         </div>
 
       </div>
-    </div>
+    </div> 
   );
 };
 
