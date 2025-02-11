@@ -6,7 +6,7 @@ import Home from './Pages/Home'
 const App = () => {
   return (
     <BrowserRouter>
-    <div className='bg-[var(--navbar)]'>
+    <div className='bg-[var(--bg)]'>
     <Header />
     <Routes>
       <Route path='/' element={<Home />} />
