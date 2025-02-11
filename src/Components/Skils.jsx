@@ -9,7 +9,7 @@ const Skils = () => {
         Here are some of my skills on which I have learnt.
       </div>
       <div className="flex justify-center md:justify-evenly text-center flex-col lg:flex-row">
-        <div className="border border-[#b14fc4] rounded-xl px-0 mx-[10%] my-5 md:px-16 pb-8 lg:mx-0 lg:my-0 opacity-80 shadow-[0_0_10px_#d607ed]">
+        <div className="border border-[#b14fc4] bg-[#171721] rounded-xl px-0 mx-[10%] my-5 md:px-16 pb-8 lg:mx-0 lg:my-0 opacity-80 shadow-[0_0_10px_#d607ed]">
           <div className="text-center text-[1.8em] my-4 font-bold">Frontend</div>
           <div className="flex justify-center gap-5 flex-wrap px-1">
             <h3 className="border border-white rounded-lg px-3 py-2 flex justify-center items-center gap-2">
@@ -36,7 +36,7 @@ const Skils = () => {
           </div>
         </div>
 
-        <div className="border border-[#b14fc4] rounded-xl px-0 mx-[10%] my-5 md:px-10 pb-8 lg:mx-0 lg:my-0 opacity-80 shadow-[0_0_10px_#d607ed]">
+        <div className="border border-[#b14fc4] bg-[#171721] rounded-xl px-0 mx-[10%] my-5 md:px-10 pb-8 lg:mx-0 lg:my-0 opacity-80 shadow-[0_0_10px_#d607ed]">
         <div className="text-center text-[1.8em] my-4 font-bold">Others</div>
           <div className="flex justify-center gap-5 flex-wrap px-1">
             <h3 className="border border-white rounded-lg px-3 py-2 flex justify-center items-center gap-2">
