@@ -10,8 +10,8 @@ const Education = () => {
         My education has been a journey of self-discovery and growth. My
         educational details are as follows.
       </div>
-      {edu.map((item)=>(
-        <div className="border border-[#b14fc4] rounded-xl w-[70%] md:w-[70%] py-4 px-2 mx-auto my-0 opacity-80 shadow-[0_0_6px_#d607ed] mb-8">
+      {edu.map((item,id)=>(
+        <div key={id} className="border border-[#b14fc4] rounded-xl w-[70%] md:w-[70%] py-4 px-2 mx-auto my-0 opacity-80 shadow-[0_0_6px_#d607ed] mb-8">
         <div className=" px-2 md:px-5 text-[1.2em] font-bold opacity-90 ">{item.name}</div>
         <div className=" px-2 md:px-5 text-[0.9em]  opacity-60">{item.study}</div>
         <div className=" px-2 md:px-5 text-[0.8em] opacity-50 mb-1">{item.year}</div>

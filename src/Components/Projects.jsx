@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import {projects} from "../Data";
+import Details from "./Details";
 
 const Projects = () => {
+
+  const [selectedProject, setSelectedProject] = useState(null)
+
+  const click = (projects) => {
+    setSelectedProject(projects)
+  }
+
   return (
     <div className="mt-[5%] w-screen xl:w-[80%] mx-auto my-0">
       <div className="text-center text-[2em] font-bold mt-3">Projects</div>
@@ -11,8 +19,8 @@ const Projects = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-[90%] md:w-[100%] mx-auto my-0">
-      {projects.map((item)=>(
-        <div className="border border-[#1f1f1f] bg-[#171721] rounded-xl py-4 px-2 mx-auto my-0 opacity-80 shadow-[0_0_6px_#1f1f1f] mb-8">
+      {projects.map((item,id)=>(
+        <div key={id} onClick={()=> click(item)} className="border border-[#1f1f1f] bg-[#171721] rounded-xl py-4 px-2 mx-auto my-0 opacity-80 shadow-[0_0_6px_#1f1f1f] mb-8">
         <img src={item.poster} alt="" className="rounded-[10%] min-h-[180px] min-w-[280px] px-1 mb-2"/>
         <div className="px-4 py-1 flex gap-3 text-[0.8em] my-1">
             <div className=" bg-[#b14fc4] rounded-xl px-2">{item.tech[0]}</div>
@@ -23,8 +31,9 @@ const Projects = () => {
           <div className="px-4 text-[1em] mb-5 opacity-70 text-justify line-clamp-3">{item.Description}</div>
         </div>
       ))}
-        
       </div>
+      
+      {selectedProject && <Details project={selectedProject} onClose={() => setSelectedProject(null)} />}
     </div> 
   );
 };
