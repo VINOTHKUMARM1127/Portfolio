@@ -19,3 +19,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.sb::-webkit-scrollbar {
+  display: none;
+}
+.sb {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
