@@ -6,6 +6,7 @@ import Skils from '../Components/Skils'
 import Education from '../Components/Education'
 import ScrollProgress from '../Components/ScrollProgress'
 import Projects from '../Components/Projects'
+import ContactForm from '../Components/ContactForm'
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
     <div id='skills'><Skils /></div>
     <div id='education'><Education /></div>
     <div id='projects'><Projects /></div>
+    <div id='contactform'><ContactForm /></div>
     <Footer />
     </div>
   )
