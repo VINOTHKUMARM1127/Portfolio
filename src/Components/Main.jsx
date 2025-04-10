@@ -1,5 +1,5 @@
 import React from 'react'
-import Pic from '../assets/Profile-Pic.jpg'
+import Pic from '../assets/Profile-Pic-min.jpg'
 
 const Main = () => {
     return (
