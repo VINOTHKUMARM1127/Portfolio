@@ -27,6 +27,4 @@ body::-webkit-scrollbar {
   scrollbar-width: none;
 }
 
-.blend {
-  background: linear-gradient(to bottom, blue, purple);
-}
+
