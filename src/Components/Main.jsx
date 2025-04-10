@@ -3,14 +3,14 @@ import Pic from '../assets/Profile-Pic-min.jpg'
 
 const Main = () => {
     return (
-        <div className='bg-gradient-to-tr from-purple-900 via-black to-blue-900 h-[89vh] flex flex-col-reverse md:flex-row justify-evenly items-center'>
+        <div className='bg-gradient-to-tr from-purple-900 via-black to-blue-900  md:h-[89vh] flex flex-col-reverse md:flex-row justify-evenly items-center py-10 md:py-0'>
             <div className='text-center w-[90vw] md:w-[40vw]'>
                 <div className='text-[1.7em] md:text-[3em] font-black mt-4 md:mt-0'>
-                <div>Hi I Am</div>
-                <div>Vinoth Kumar M</div>
+                <div className='text-[1.4em] md:text-[2em] '>Hi I Am</div>
+                <div className='text-[1.4em] md:text-[2em]'>Vinoth Kumar M</div>
                 </div>
-                <div className='text-[1.5em] md:text-[2em] font-bold'>I Am Web Developer</div>
-                <div className='text-[1em] md:text-[1.3em] opacity-70 mt-3 mb-5 md:mb-0'>A skilled React developer with a strong portfolio, passionate about
+                <div className='text-[1.8em] md:text-[2em]   '>I am Web Developer</div>
+                <div className='text-[1em] md:text-[1.3em] opacity-70 mt-3'>A skilled React developer with a strong portfolio, passionate about
                      staying updated on frontend tech. Collaborative and committed to quality,
                       you thrive in dynamic teams. Eager to contribute creativity and bring 
                       innovative ideas to life.</div>
