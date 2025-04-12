@@ -17,7 +17,8 @@ const Main = () => {
                      staying updated on frontend tech. Collaborative and committed to quality,
                       you thrive in dynamic teams. Eager to contribute creativity and bring 
                       innovative ideas to life.</div>
-                <div className='text-[1.1em] bg-gradient-to-r from-purple-700 to-blue-700 w-fit px-8 py-4 rounded-lg mx-auto lg:mx-0 my-6 cursor-pointer hover:scale-105 '>Check Resume</div>
+                <div onClick={() => window.open("https://drive.google.com/file/d/1Rq3vOcMQxODgaOWLCPmCYpgufZbjYV0m/view?usp=drivesdk")}
+                className='text-[1.1em] bg-gradient-to-r from-purple-700 to-blue-700 w-fit px-8 py-4 rounded-lg mx-auto lg:mx-0 my-6 cursor-pointer hover:scale-105 '>Check Resume</div>
             </div>
 
             <div>
