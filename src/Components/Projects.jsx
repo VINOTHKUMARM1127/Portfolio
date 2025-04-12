@@ -22,9 +22,9 @@ const Projects = () => {
       {projects.map((item,id)=>(
         <div key={id} onClick={()=> click(item)} className="border border-[#1f1f1f] bg-[#171721] rounded-xl py-4 px-2 mx-auto my-0 opacity-80 shadow-[0_0_6px_#1f1f1f] mb-8 hover:bs hover:scale-105">
         <img src={item.poster} alt="" className="rounded-lg overflow-hidden min-h-[180px] min-w-[220px] px-1 mb-2"/>
-        <div className="px-4 py-1 flex gap-3 text-[0.8em] my-1">
-            <div className=" bg-[#b14fc4] rounded-xl px-2">{item.tech[0]}</div>
-            <div className=" bg-[#b14fc4] rounded-xl px-2">{item.tech[1]}</div>
+        <div className="px-2 py-1 flex gap-3 text-[0.8em] my-1 text-[#9557ff]">
+            <div className=" bg-[#854ce61F] rounded-md px-2 ">{item.tech[0]}</div>
+            <div className=" bg-[#854ce61F] rounded-md px-2 ">{item.tech[1]}</div>
           </div>
           <div className="px-4 text-[1.4em] mt-1 font-bold opacity-90 ">{item.title}</div>
           <div className="px-4 text-[0.8em] opacity-50 mb-1">{item.year}</div>
