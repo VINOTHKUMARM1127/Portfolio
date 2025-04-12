@@ -13,7 +13,7 @@ body{
   --bg:#191924;
   font-family: 'Mulish';
   overflow: auto;
-  background: #171721;
+  background-color:#1e1e29;
 }
 
 body::-webkit-scrollbar {
@@ -44,3 +44,8 @@ body::-webkit-scrollbar {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 }
 
+.cut{
+  padding-bottom: 100px;
+  clip-path: polygon(100% 0, 0 0, 0 100%, 70% 98%, 100% 100%);
+
+}
