@@ -22,7 +22,7 @@ const Main = () => {
 
             <div>
                 <img src={Pic} 
-                className='w-[300px] md:w-[400px] rounded-full border-2 border-violet-600 mt-5 md:mt-0  shadow-[0_0_40px_purple]' />
+                className='w-[300px] md:w-[350px] rounded-full border-2 border-violet-600 mt-5 md:mt-0  shadow-[0_0_40px_purple]' />
             </div>
         </div>
         </section>

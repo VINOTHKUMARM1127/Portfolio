@@ -24,45 +24,58 @@ export const Contactus = () => {
 
   return (
     <section>
-    <div className="text-center text-[2em] font-bold mt-6 mb-12">Contact Us</div>
+    <div className="text-center text-[2em] font-bold mt-8 mb-1">Contact</div>
+    <div className="text-center text-[1.2em] opacity-55 mt-5 mb-10 px-10">
+    Feel free to reach out to me for any questions or opportunities!
+      </div>
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-xl space-y-4 text-black"
+      className="w-[70%] lg:w-[40%]  mx-auto p-6 bg-[#171721] shadow-md rounded-xl space-y-4 text-white"
     >
+        <div className='text-[1.3em] font-extrabold'>Email Me!</div>
       <div>
-        <label className="block text-gray-700 font-medium mb-1">Name</label>
         <input
           type="text"
-          name="user_name"
+          name="name"
           required
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="bg-[#171721] w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder='Name'
         />
       </div>
   
       <div>
-        <label className="block text-gray-700 font-medium mb-1">Email</label>
         <input
           type="email"
-          name="user_email"
+          name="email"
           required
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="bg-[#171721] w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder='Email'
+        />
+      </div>
+
+      <div>
+        <textarea
+          name="subject"
+          required
+          className="bg-[#171721] w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 h-15 resize-none"
+          placeholder='Subject'
         />
       </div>
   
       <div>
-        <label className="block text-gray-700 font-medium mb-1">Message</label>
         <textarea
           name="message"
           required
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 h-32 resize-none"
+          className="bg-[#171721] w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 h-28 resize-none"
+          placeholder='Message'
         />
       </div>
   
       <input
         type="submit"
         value="Send"
-        className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-200 cursor-pointer"
+        className="w-full bg-gradient-to-r from-purple-800 to-blue-800 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-200 cursor-pointer"
       />
     </form>
     </section>

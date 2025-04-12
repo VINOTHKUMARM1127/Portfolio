@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 const Header = () => {
   return (
-    <div className='bg-[var(--navbar)] z-50 flex justify-between md:px-[100px] 
+    <div className='bg-[#171721] z-50 flex justify-between md:px-[100px] 
     p-5 sticky top-0'>
       <div className='text-[1.5em]'>VinoDev</div>
       <div className='hidden lg:block'>
