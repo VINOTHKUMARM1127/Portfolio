@@ -63,3 +63,7 @@ body::-webkit-scrollbar {
   padding-bottom: 100px;
   clip-path: polygon(100% 0, 0 0, 0 100%, 70% 98%, 100% 100%);
 }
+
+.bs {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}

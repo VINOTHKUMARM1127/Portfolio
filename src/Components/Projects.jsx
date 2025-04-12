@@ -20,7 +20,7 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-[100%] mx-auto my-0">
       {projects.map((item,id)=>(
-        <div key={id} onClick={()=> click(item)} className="border border-[#1f1f1f] bg-[#171721] rounded-xl py-4 px-2 mx-auto my-0 opacity-80 shadow-[0_0_6px_#1f1f1f] mb-8">
+        <div key={id} onClick={()=> click(item)} className="border border-[#1f1f1f] bg-[#171721] rounded-xl py-4 px-2 mx-auto my-0 opacity-80 shadow-[0_0_6px_#1f1f1f] mb-8 hover:bs hover:scale-105">
         <img src={item.poster} alt="" className="rounded-lg overflow-hidden min-h-[180px] min-w-[220px] px-1 mb-2"/>
         <div className="px-4 py-1 flex gap-3 text-[0.8em] my-1">
             <div className=" bg-[#b14fc4] rounded-xl px-2">{item.tech[0]}</div>
