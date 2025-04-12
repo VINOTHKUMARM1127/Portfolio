@@ -3,7 +3,7 @@ import Pic from '../assets/Profile-Pic-min.jpg'
 
 const Main = () => {
     return (
-        <div className='bg-gradient-to-tr from-purple-900 via-black to-blue-900  md:h-[89vh] flex flex-col-reverse md:flex-row justify-evenly items-center py-10 md:py-0'>
+        <div className='md:h-[89vh] flex flex-col-reverse md:flex-row justify-evenly items-center py-10 md:py-0'>
             <div className='text-center w-[90vw] md:w-[40vw]'>
                 <div className='text-[1.7em] md:text-[3em] font-black mt-4 md:mt-0'>
                 <div className='text-[1.4em] md:text-[1em] '>Hi I Am</div>

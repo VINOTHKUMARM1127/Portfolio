@@ -9,16 +9,17 @@ import Projects from '../Components/Projects'
 
 const Home = () => {
 
-
   return (
     <div>
       <ScrollProgress />
-    <Explore />
-    <div id='home'><Main /></div>
-    <div id='skills'><Skils /></div>
-    <div id='education'><Education /></div>
-    <div id='projects'><Projects /></div>
-    <Footer />
+      <Explore />
+      <div id='home'><Main /></div>
+      <div className='wap'>
+        <div id='skills'><Skils /></div>
+        <div id='education'><Education /></div>
+      </div>
+      <div id='projects'><Projects /></div>
+      <Footer />
     </div>
   )
 }
