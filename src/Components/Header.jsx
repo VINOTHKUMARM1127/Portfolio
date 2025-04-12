@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <section className='bg-[#171721] z-40 md:px-[100px] 
     py-5 sticky top-0'>
-    <div className='w-[100%] md:w-[85%] flex justify-between mx-auto my-0'>
+    <div className='w-[90%] lg:w-[85%] flex justify-between mx-auto my-0'>
       <div className='text-[1.5em] font-bold'>Devfolio</div>
       <div className='hidden lg:block'>
       <div className='flex cursor-pointer text-[1em]'>
