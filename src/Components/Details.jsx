@@ -12,7 +12,7 @@ const Details = ({ project, onClose }) => {
 
     return (
         <div className={'fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50 mt-10 py-36'}>
-        <div className='relative bg-[#191924] p-4 rounded-lg w-[80vw] md:w-[50vw] max-h-[80vh] text-center overflow-y-auto sb'>
+        <div className='relative bg-[#191924] p-4 rounded-lg w-[80vw] md:w-[50vw] max-h-[80vh] h-[70vh] text-center overflow-y-auto sb'>
         <button onClick={onClose}
           className="absolute top-2 right-2 bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center hover:bg-red-700">
           ✕
