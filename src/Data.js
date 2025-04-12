@@ -4,6 +4,16 @@ import LotHub from './assets/LotHub.png'
 const projects = [
   {
     id: 1,
+    title: "LotGames",
+    year: 2025,
+    tech: ['React','Tailwind Css'],
+    Description: "LotGames is a game discovery platform inspired by RAWG. It provides users with an intuitive interface to explore, search, and discover video games, game creators, and gaming stores. The website pulls data from the RAWG API to offer real-time information about games, creators, trending content, and much more.",
+    poster: LotGames,
+    code:"https://github.com/VINOTHKUMARM1127/LotGames",
+    app:"https://lotgames.netlify.app/",
+  },
+  {
+    id: 2,
     title: "LotHub",
     year: 2024,
     tech: ['React','Css'],
@@ -13,18 +23,8 @@ const projects = [
     app:"https://lothub.netlify.app/",
   },
   {
-    id: 2,
-    title: "LotGames",
-    year: 2024,
-    tech: ['React','Tailwind Css'],
-    Description: "LotGames is a game discovery platform inspired by RAWG. It provides users with an intuitive interface to explore, search, and discover video games, game creators, and gaming stores. The website pulls data from the RAWG API to offer real-time information about games, creators, trending content, and much more.",
-    poster: LotGames,
-    code:"https://github.com/VINOTHKUMARM1127/LotGames",
-    app:"https://lotgames.netlify.app/",
-  },
-  {
     id: 3,
-    title: "DevFolio",
+    title: "Devfolio",
     year: 2024,
     tech: ['React','Tailwind Css'],
     Description: "LotGames is a game discovery platform inspired by RAWG. It provides users with an intuitive interface to explore, search, and discover video games, game creators, and gaming stores. The website pulls data from the RAWG API to offer real-time information about games, creators, trending content, and much more.",

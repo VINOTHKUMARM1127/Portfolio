@@ -6,6 +6,7 @@ import Skils from '../Components/Skils'
 import Education from '../Components/Education'
 import ScrollProgress from '../Components/ScrollProgress'
 import Projects from '../Components/Projects'
+import { Contactus } from '../Components/Contactus'
 
 const Home = () => {
 
@@ -18,7 +19,10 @@ const Home = () => {
         <div id='skills'><Skils /></div>
         <div id='education'><Education /></div>
       </div>
-      <div className='wapp' id='projects'><Projects /></div>
+      <div className='wapp' id='projects'>
+        <Projects />
+        <Contactus />
+      </div>
       <Footer />
     </div>
   )
