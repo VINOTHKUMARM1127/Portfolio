@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
-    <div className='bg-[var(--navbar)] flex justify-center mt-5 '>
+    <div className='bg-[#1e1e29] flex justify-center mt-5 '>
         <div className='w-[90vw] text-center'>
       <div className='text-[1.4em] mt-5'>Vinoth Kumar M</div>
       <div className=''>

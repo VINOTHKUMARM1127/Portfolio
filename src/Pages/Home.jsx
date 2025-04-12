@@ -18,7 +18,7 @@ const Home = () => {
         <div id='skills'><Skils /></div>
         <div id='education'><Education /></div>
       </div>
-      <div id='projects'><Projects /></div>
+      <div className='wapp' id='projects'><Projects /></div>
       <Footer />
     </div>
   )

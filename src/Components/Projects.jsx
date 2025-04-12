@@ -11,7 +11,7 @@ const Projects = () => {
   }
 
   return (
-    <div className="mt-[5%] w-screen xl:w-[80%] mx-auto my-0zz">
+    <div className="mt-[5%] w-screen xl:w-[70%] mx-auto my-0zz">
       <div className="text-center text-[2em] font-bold mt-3">Projects</div>
       <div className="text-center text-[1.2em] opacity-55 mt-5 mb-10 px-10">
         I have worked on a wide range of projects. From websites to web apps.
